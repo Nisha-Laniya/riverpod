@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/user_model2(fullmodel).dart';
 import '../services/api_service2(fullmodel).dart';
-import 'example6.dart';
 
 final apiProvider = Provider<ApiServices2>((ref) => ApiServices2());
 
